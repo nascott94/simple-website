@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Woman from "../image/woman.jpg";
+import { AnimatedShapes } from "./AnimatedShapes";
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -37,7 +38,7 @@ const Info = styled.div`
 
 const Button = styled.button`
   padding: 15px;
-  background-color: darkblue;
+  background-color: #afc4c4;
   color: white;
   border-radius: 10px;
   font-weight: bold;
@@ -52,7 +53,7 @@ const Contact = styled.div`
 `;
 
 const Phone = styled.span`
-  color: pink;
+  color: #358e9d;
   font-weight: bold;
 `;
 
@@ -62,7 +63,9 @@ const ContactText = styled.span`
 `;
 
 const Right = styled.div`
-  width: 40%;
+  width: 45%;
+  padding-top: 50px;
+  padding-right: 100px;
 `;
 
 const Image = styled.img`
@@ -90,6 +93,7 @@ export const Intro = () => {
       <Right>
         <Image src={Woman} />
       </Right>
+      <AnimatedShapes />
     </Container>
   );
 };

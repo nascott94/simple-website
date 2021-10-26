@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Navbar } from "./components/Navbar";
 import { Intro } from "./components/Intro";
+import Feature from "./components/Feature";
 
 const Container = styled.div`
   height: 100vh;
@@ -15,15 +16,20 @@ const IntroShape = styled.div`
   left: 0;
   z-index: -1;
   clip-path: polygon(67% 0%, 100% 0%, 100% 100%, 55% 100%);
-  background-color: crimson;
+  background-color: #96a480;
 `;
 const App = () => {
   return (
-    <Container>
-      <Navbar />
-      <Intro />
-      <IntroShape />
-    </Container>
+    <>
+      <Container>
+        <Navbar />
+        <Intro />
+        <IntroShape />
+      </Container>
+      <Container>
+        <Feature />
+      </Container>
+    </>
   );
 };
 

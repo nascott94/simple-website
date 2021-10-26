@@ -21,7 +21,7 @@ const Left = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  text-decoration: underline crimson;
+  text-decoration: underline #afc4c4;
 `;
 
 const Menu = styled.ul`
@@ -38,7 +38,7 @@ const MenuItem = styled.li`
 const Button = styled.button`
   border: 2px solid white;
   padding: 10px 15px;
-  background-color: crimson;
+  background-color: #afc4c4;
   color: white;
   font-weight: bold;
   border-radius: 10px;
