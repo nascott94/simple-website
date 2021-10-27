@@ -9,7 +9,7 @@ const Container = styled.div`
   overflow: hidden;
   position: relative;
 `;
-
+//shapes made with css clip-path maker
 const Shape = css`
   width: 100%;
   height: 100%;
