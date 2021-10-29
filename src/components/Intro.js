@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Woman from "../image/woman.jpg";
+// import Surfer from "../image/suferdan.jpg";
 import { AnimatedShapes } from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -86,7 +87,8 @@ const ContactText = styled.span`
 const Right = styled.div`
   width: 45%;
   padding-top: 50px;
-  padding-right: 100px;
+  padding-right: 75px;
+
   @media only screen and (max-width: 480px) {
     display: none;
   }

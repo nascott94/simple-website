@@ -16,7 +16,7 @@ const Left = styled.div`
 
 const Image = styled.img`
   display: ${(props) => props.open && "none"};
-  height: 100%;
+  height: 90%;
   margin-left: 100px;
 `;
 

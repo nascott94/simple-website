@@ -20,6 +20,8 @@ const Left = styled.div`
 
 const Image = styled.img`
   width: 80%;
+  /* padding-top: 50px;
+  padding-left: 200px; */
 `;
 
 const Right = styled.div`
