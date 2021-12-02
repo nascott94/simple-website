@@ -53,7 +53,7 @@ export const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Agency</Logo>
+          <Logo>Nat and Dan Web Development</Logo>
           <Menu>
             <MenuItem>Home</MenuItem>
             <MenuItem>Features</MenuItem>
